@@ -24,4 +24,4 @@ db.once("open", () => console.log("connected to the database"));
 app.use("/", router);
 
 //server is running
-app.listen(process.env.PORT || 3000, () => console.log("listening on port"));
+app.listen(process.env.PORT || 5000, () => console.log("listening on port"));
